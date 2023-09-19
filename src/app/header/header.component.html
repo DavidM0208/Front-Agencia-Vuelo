@@ -5,8 +5,40 @@
         </div>
         <div class="col-sm-4 box_lenguaje_register_login">
             <button class="buttonLenguaje">Español / $ COP</button>
-            <button class="buttonRegister">Registrarse</button>
-            <button class="buttonLogin">Iniciar sesión</button>
+
+            <div class="dropdown">
+                <button class="dropdown-toggle buttonRegister" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Registrarse</button>
+                <div class="dropdown-menu box_form_register" aria-labelledby="dropdownMenuButton">
+                    <form action="" class="form-control form_register">
+                        <div class="username">
+                            <label for="">Usuario: <input type="text" class="form-control"></label>
+                        </div>
+                        <div class="email">
+                            <label for="">Email: <input type="text" class="form-control"></label>
+                        </div>
+                        <div class="password">
+                            <label for="">Contraseña: <input type="password" class="form-control"></label>
+                        </div>
+                        <a href="" class="btn">Registrarse</a>
+                    </form>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropdown-toggle buttonLogin" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Iniciar sesión</button>
+                <div class="dropdown-menu box_form_login" aria-labelledby="dropdownMenuButton">
+                    <form action="" class="form-control form_login">
+                        <div class="username">
+                            <label for="username">Usuario: <input type="text" class="form-control"></label>
+                        </div>
+                        <div class="password">
+                            <label for="password">Contraseña: <input type="password" class="form-control"></label>
+                        </div>
+                        <a href="" class="btn">Iniciar</a>
+                    </form>
+                </div>
+            </div>
+
         </div>
     </div>
 </div>

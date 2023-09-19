@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { IndexComponent } from './index/index.component';
 import { HeaderComponent } from './header/header.component';
+import { FooterComponent } from './footer/footer.component';
 // import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
@@ -12,6 +13,7 @@ import { HeaderComponent } from './header/header.component';
     AppComponent,
     IndexComponent,
     HeaderComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

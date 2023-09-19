@@ -51,6 +51,10 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
+.dropdown-toggle::after {
+    display: none;
+}
+
 .buttonLogin {
     background-color: white;
     border: solid 1px rgb(167, 61, 144);
@@ -58,4 +62,56 @@
     width: 120px;
     height: 50px;
     color: rgb(167, 61, 144);
+}
+
+.box_form_register {
+    padding: 5px;
+}
+
+.form_register {
+    width: 250px;
+}
+
+.form_register a {
+    background-color: rgb(165, 84, 147);
+    border: solid 1px rgb(165, 84, 147);
+    border-radius: 30px;
+    margin: 5px 50px;
+    color: white;
+    width: 120px;
+}
+
+.box_form_login {
+    padding: 5px;
+}
+
+.form_login {
+    width: 250px;
+}
+
+.form_login a {
+    background-color: rgb(165, 84, 147);
+    border: solid 1px rgb(165, 84, 147);
+    border-radius: 30px;
+    margin: 5px 60px;
+    color: white;
+    width: 100px;
+}
+
+.username {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.email {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.password {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
 }
